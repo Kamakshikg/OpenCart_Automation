@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="true" name="Suite" thread-count="2">
+	<!-- <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://demo.opencart.com/"/>-->
+    <test name="FirefoxTest">
+    	<classes>
+    		<class name="test_cases.BaseTest"/>
+      		<class name="step_definitions.TestRunner"/>
+    	</classes>
+  	</test>
+</suite> <!-- Suite -->
+  <!--   <test name="ChromeTest">
+    <classes>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://demo.opencart.com/"/>
+      <class name="step_definitions.TestRunner"/>
+    </classes>
+  </test>--> <!-- Test -->
+  
+  
+    
+  
